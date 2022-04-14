@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C68046EB280872DB00BE1BBB /* GeoAlgApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68046EA280872DB00BE1BBB /* GeoAlgApp.swift */; };
+		C68046ED280872DB00BE1BBB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68046EC280872DB00BE1BBB /* ContentView.swift */; };
+		C68046EF280872DC00BE1BBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C68046EE280872DC00BE1BBB /* Assets.xcassets */; };
+		C68046F2280872DC00BE1BBB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C68046F1280872DC00BE1BBB /* Preview Assets.xcassets */; };
+		C68046FD280872DC00BE1BBB /* GeoAlgTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68046FC280872DC00BE1BBB /* GeoAlgTests.swift */; };
+		C6804707280872DC00BE1BBB /* GeoAlgUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6804706280872DC00BE1BBB /* GeoAlgUITests.swift */; };
+		C6804709280872DC00BE1BBB /* GeoAlgUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6804708280872DC00BE1BBB /* GeoAlgUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C68046F9280872DC00BE1BBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C68046DF280872DB00BE1BBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C68046E6280872DB00BE1BBB;
+			remoteInfo = GeoAlg;
+		};
+		C6804703280872DC00BE1BBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C68046DF280872DB00BE1BBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C68046E6280872DB00BE1BBB;
+			remoteInfo = GeoAlg;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C68046E7280872DB00BE1BBB /* GeoAlg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoAlg.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C68046EA280872DB00BE1BBB /* GeoAlgApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoAlgApp.swift; sourceTree = "<group>"; };
+		C68046EC280872DB00BE1BBB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C68046EE280872DC00BE1BBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C68046F1280872DC00BE1BBB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C68046F3280872DC00BE1BBB /* GeoAlg.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GeoAlg.entitlements; sourceTree = "<group>"; };
+		C68046F8280872DC00BE1BBB /* GeoAlgTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoAlgTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C68046FC280872DC00BE1BBB /* GeoAlgTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoAlgTests.swift; sourceTree = "<group>"; };
+		C6804702280872DC00BE1BBB /* GeoAlgUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoAlgUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6804706280872DC00BE1BBB /* GeoAlgUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoAlgUITests.swift; sourceTree = "<group>"; };
+		C6804708280872DC00BE1BBB /* GeoAlgUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoAlgUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C68046E4280872DB00BE1BBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C68046F5280872DC00BE1BBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C68046FF280872DC00BE1BBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C68046DE280872DB00BE1BBB = {
+			isa = PBXGroup;
+			children = (
+				C68046E9280872DB00BE1BBB /* GeoAlg */,
+				C68046FB280872DC00BE1BBB /* GeoAlgTests */,
+				C6804705280872DC00BE1BBB /* GeoAlgUITests */,
+				C68046E8280872DB00BE1BBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C68046E8280872DB00BE1BBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C68046E7280872DB00BE1BBB /* GeoAlg.app */,
+				C68046F8280872DC00BE1BBB /* GeoAlgTests.xctest */,
+				C6804702280872DC00BE1BBB /* GeoAlgUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C68046E9280872DB00BE1BBB /* GeoAlg */ = {
+			isa = PBXGroup;
+			children = (
+				C68046EA280872DB00BE1BBB /* GeoAlgApp.swift */,
+				C68046EC280872DB00BE1BBB /* ContentView.swift */,
+				C68046EE280872DC00BE1BBB /* Assets.xcassets */,
+				C68046F3280872DC00BE1BBB /* GeoAlg.entitlements */,
+				C68046F0280872DC00BE1BBB /* Preview Content */,
+			);
+			path = GeoAlg;
+			sourceTree = "<group>";
+		};
+		C68046F0280872DC00BE1BBB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C68046F1280872DC00BE1BBB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C68046FB280872DC00BE1BBB /* GeoAlgTests */ = {
+			isa = PBXGroup;
+			children = (
+				C68046FC280872DC00BE1BBB /* GeoAlgTests.swift */,
+			);
+			path = GeoAlgTests;
+			sourceTree = "<group>";
+		};
+		C6804705280872DC00BE1BBB /* GeoAlgUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C6804706280872DC00BE1BBB /* GeoAlgUITests.swift */,
+				C6804708280872DC00BE1BBB /* GeoAlgUITestsLaunchTests.swift */,
+			);
+			path = GeoAlgUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C68046E6280872DB00BE1BBB /* GeoAlg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C680470C280872DC00BE1BBB /* Build configuration list for PBXNativeTarget "GeoAlg" */;
+			buildPhases = (
+				C68046E3280872DB00BE1BBB /* Sources */,
+				C68046E4280872DB00BE1BBB /* Frameworks */,
+				C68046E5280872DB00BE1BBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoAlg;
+			productName = GeoAlg;
+			productReference = C68046E7280872DB00BE1BBB /* GeoAlg.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C68046F7280872DC00BE1BBB /* GeoAlgTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C680470F280872DC00BE1BBB /* Build configuration list for PBXNativeTarget "GeoAlgTests" */;
+			buildPhases = (
+				C68046F4280872DC00BE1BBB /* Sources */,
+				C68046F5280872DC00BE1BBB /* Frameworks */,
+				C68046F6280872DC00BE1BBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C68046FA280872DC00BE1BBB /* PBXTargetDependency */,
+			);
+			name = GeoAlgTests;
+			productName = GeoAlgTests;
+			productReference = C68046F8280872DC00BE1BBB /* GeoAlgTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C6804701280872DC00BE1BBB /* GeoAlgUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6804712280872DC00BE1BBB /* Build configuration list for PBXNativeTarget "GeoAlgUITests" */;
+			buildPhases = (
+				C68046FE280872DC00BE1BBB /* Sources */,
+				C68046FF280872DC00BE1BBB /* Frameworks */,
+				C6804700280872DC00BE1BBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6804704280872DC00BE1BBB /* PBXTargetDependency */,
+			);
+			name = GeoAlgUITests;
+			productName = GeoAlgUITests;
+			productReference = C6804702280872DC00BE1BBB /* GeoAlgUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C68046DF280872DB00BE1BBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					C68046E6280872DB00BE1BBB = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					C68046F7280872DC00BE1BBB = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = C68046E6280872DB00BE1BBB;
+					};
+					C6804701280872DC00BE1BBB = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = C68046E6280872DB00BE1BBB;
+					};
+				};
+			};
+			buildConfigurationList = C68046E2280872DB00BE1BBB /* Build configuration list for PBXProject "GeoAlg" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C68046DE280872DB00BE1BBB;
+			productRefGroup = C68046E8280872DB00BE1BBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C68046E6280872DB00BE1BBB /* GeoAlg */,
+				C68046F7280872DC00BE1BBB /* GeoAlgTests */,
+				C6804701280872DC00BE1BBB /* GeoAlgUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C68046E5280872DB00BE1BBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C68046F2280872DC00BE1BBB /* Preview Assets.xcassets in Resources */,
+				C68046EF280872DC00BE1BBB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C68046F6280872DC00BE1BBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6804700280872DC00BE1BBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C68046E3280872DB00BE1BBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C68046ED280872DB00BE1BBB /* ContentView.swift in Sources */,
+				C68046EB280872DB00BE1BBB /* GeoAlgApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C68046F4280872DC00BE1BBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C68046FD280872DC00BE1BBB /* GeoAlgTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C68046FE280872DC00BE1BBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6804707280872DC00BE1BBB /* GeoAlgUITests.swift in Sources */,
+				C6804709280872DC00BE1BBB /* GeoAlgUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C68046FA280872DC00BE1BBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C68046E6280872DB00BE1BBB /* GeoAlg */;
+			targetProxy = C68046F9280872DC00BE1BBB /* PBXContainerItemProxy */;
+		};
+		C6804704280872DC00BE1BBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C68046E6280872DB00BE1BBB /* GeoAlg */;
+			targetProxy = C6804703280872DC00BE1BBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C680470A280872DC00BE1BBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C680470B280872DC00BE1BBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C680470D280872DC00BE1BBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GeoAlg/GeoAlg.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GeoAlg/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = m1.GeoAlg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C680470E280872DC00BE1BBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GeoAlg/GeoAlg.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GeoAlg/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = m1.GeoAlg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C6804710280872DC00BE1BBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = m1.GeoAlgTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeoAlg.app/Contents/MacOS/GeoAlg";
+			};
+			name = Debug;
+		};
+		C6804711280872DC00BE1BBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = m1.GeoAlgTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeoAlg.app/Contents/MacOS/GeoAlg";
+			};
+			name = Release;
+		};
+		C6804713280872DC00BE1BBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = m1.GeoAlgUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = GeoAlg;
+			};
+			name = Debug;
+		};
+		C6804714280872DC00BE1BBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = m1.GeoAlgUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = GeoAlg;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C68046E2280872DB00BE1BBB /* Build configuration list for PBXProject "GeoAlg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C680470A280872DC00BE1BBB /* Debug */,
+				C680470B280872DC00BE1BBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C680470C280872DC00BE1BBB /* Build configuration list for PBXNativeTarget "GeoAlg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C680470D280872DC00BE1BBB /* Debug */,
+				C680470E280872DC00BE1BBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C680470F280872DC00BE1BBB /* Build configuration list for PBXNativeTarget "GeoAlgTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6804710280872DC00BE1BBB /* Debug */,
+				C6804711280872DC00BE1BBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6804712280872DC00BE1BBB /* Build configuration list for PBXNativeTarget "GeoAlgUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6804713280872DC00BE1BBB /* Debug */,
+				C6804714280872DC00BE1BBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C68046DF280872DB00BE1BBB /* Project object */;
+}
