@@ -14,6 +14,9 @@
 		C68046FD280872DC00BE1BBB /* GeoAlgTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68046FC280872DC00BE1BBB /* GeoAlgTests.swift */; };
 		C6804707280872DC00BE1BBB /* GeoAlgUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6804706280872DC00BE1BBB /* GeoAlgUITests.swift */; };
 		C6804709280872DC00BE1BBB /* GeoAlgUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6804708280872DC00BE1BBB /* GeoAlgUITestsLaunchTests.swift */; };
+		C6804718280873B300BE1BBB /* R301.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6804716280873AD00BE1BBB /* R301.swift */; };
+		C680471A2808745100BE1BBB /* GeoAlg.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68047192808745100BE1BBB /* GeoAlg.swift */; };
+		C69AF1B22816E83900DE6D1C /* R201.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69AF1B12816E83900DE6D1C /* R201.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		C6804702280872DC00BE1BBB /* GeoAlgUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoAlgUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6804706280872DC00BE1BBB /* GeoAlgUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoAlgUITests.swift; sourceTree = "<group>"; };
 		C6804708280872DC00BE1BBB /* GeoAlgUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoAlgUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C6804716280873AD00BE1BBB /* R301.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R301.swift; sourceTree = "<group>"; };
+		C68047192808745100BE1BBB /* GeoAlg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoAlg.swift; sourceTree = "<group>"; };
+		C69AF1B12816E83900DE6D1C /* R201.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R201.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,10 +101,10 @@
 		C68046E9280872DB00BE1BBB /* GeoAlg */ = {
 			isa = PBXGroup;
 			children = (
-				C68046EA280872DB00BE1BBB /* GeoAlgApp.swift */,
-				C68046EC280872DB00BE1BBB /* ContentView.swift */,
-				C68046EE280872DC00BE1BBB /* Assets.xcassets */,
-				C68046F3280872DC00BE1BBB /* GeoAlg.entitlements */,
+				C6804716280873AD00BE1BBB /* R301.swift */,
+				C69AF1B12816E83900DE6D1C /* R201.swift */,
+				C68047192808745100BE1BBB /* GeoAlg.swift */,
+				C68047152808731F00BE1BBB /* App */,
 				C68046F0280872DC00BE1BBB /* Preview Content */,
 			);
 			path = GeoAlg;
@@ -127,6 +133,17 @@
 				C6804708280872DC00BE1BBB /* GeoAlgUITestsLaunchTests.swift */,
 			);
 			path = GeoAlgUITests;
+			sourceTree = "<group>";
+		};
+		C68047152808731F00BE1BBB /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C68046EC280872DB00BE1BBB /* ContentView.swift */,
+				C68046EA280872DB00BE1BBB /* GeoAlgApp.swift */,
+				C68046EE280872DC00BE1BBB /* Assets.xcassets */,
+				C68046F3280872DC00BE1BBB /* GeoAlg.entitlements */,
+			);
+			name = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +277,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C68046ED280872DB00BE1BBB /* ContentView.swift in Sources */,
+				C69AF1B22816E83900DE6D1C /* R201.swift in Sources */,
+				C6804718280873B300BE1BBB /* R301.swift in Sources */,
+				C680471A2808745100BE1BBB /* GeoAlg.swift in Sources */,
 				C68046EB280872DB00BE1BBB /* GeoAlgApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
